@@ -1,0 +1,76 @@
+.carousel-button-dark {
+    transition: background-color 0.3s ease, padding 0.3s ease; /* Adiciona transição suave */
+}
+
+.carousel-button-dark:hover {
+    background-color: rgba(0, 0, 0, 0.3); /* Fundo um pouco mais escuro ao passar o mouse */
+    padding: 12px; /* Aumenta o padding ao passar o mouse */
+}
+
+body {
+    background-color: black;
+}
+
+.Imagens-paisagens h2 {
+    padding: 25px;
+    color: #fff;
+}
+
+.gridcard {
+    padding: 200px;
+}
+
+.gridcard h2 {
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+
+}
+
+.gridcard h2 {
+    padding: 30px;
+    color: #fff;
+    border-bottom: 1px solid white; /* Adiciona uma borda branca na parte inferior do h2 */
+}
+.container{
+    border-bottom: 1px solid white; /* Adiciona uma borda branca na parte inferior do h2 */
+
+}
+
+
+@media screen and (max-width: 767px) {
+    .gridcard .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gridcard .card {
+        width: 100%;
+        max-width: 300px; /* Define um tamanho máximo opcional */
+        margin-bottom: 100px; /* Espaço entre os cards */
+    }
+
+    section h2{
+        font-size: 60px;
+        margin-bottom: 40px;
+        
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .row {
+        display: grid;
+        grid-template-columns: repeat(2, 49%);
+    }
+
+    /* Regra CSS para fazer as imagens ocuparem todo o espaço */
+    .gridcard .card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .col-md-4{
+        width: 1000px;
+    }
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="./Lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <section class="Imagens-paisagens">
+        <div class="container">
+            <h2>Fotos de Paisagem</h2>
+            <div id="carouselid" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="2000" class="carousel-item active">
+                        <img src="https://cdn.pixabay.com/photo/2023/12/16/00/06/mountain-8451604_1280.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h2>Foto de Engenheiro</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="2000" class="carousel-item">
+                        <img src="https://cdn.pixabay.com/photo/2024/05/15/12/31/lake-8763490_1280.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h2>Foto de Barcos</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="2000" class="carousel-item">
+                        <img src="https://cdn.pixabay.com/photo/2024/02/23/18/59/desert-8592629_1280.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h2>Foto do Deserto</h2>
+                        </div>
+                    </div>
+                </div>
+                <button data-bs-target="#carouselid" data-bs-slide="prev" class="carousel-control-prev carousel-button-dark" type="button" id="paddingbotton">
+                    <span class="carousel-control-prev-icon" id="preview-icon"></span>
+                </button>
+                <button data-bs-target="#carouselid" data-bs-slide='next' class="carousel-control-next carousel-button-dark" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselid" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carouselid" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselid" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gridcard">
+        <div class="container">
+            <h2>Últimas notícias</h2>
+            <div class="row">
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="h5">&copy;Fifa 23</h3>
+                        </div>
+                        <img src="/Exercicio/Lib/icon-plus-usp1.jpeg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">FIFA 25: O Futuro do Futebol</h4>
+                            <p class="card-text">O anúncio do novo jogo da série FIFA, intitulado "FIFA 25: O Futuro do Futebol", está gerando grande expectativa entre os fãs de futebol ao redor do mundo. Com promessas de inovações revolucionárias, o próximo lançamento da EA Sports pretende elevar a experiência do usuário a um novo patamar, introduzindo gráficos ainda mais...</p>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-primary">Ler mais</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="h5">&copy;Marvel Spider-man 2</h3>
+                        </div>
+                        <img src="/Exercicio/Lib/Spider-Man-2-imagem-2-1.png" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Espetacular Homem-Aranha 2: Chegada aos PCs</h4>
+                            <p class="card-text">O aclamado jogo 'O Espetacular Homem-Aranha 2' está finalmente chegando aos PCs, trazendo consigo toda a emoção e aventura que os fãs da Marvel tanto adoram. Com gráficos aprimorados, jogabilidade envolvente e uma trama cativante, os jogadores agora podem mergulhar de cabeça no mundo do Homem-Aranha diretamente de seus computadores. Desde...</p>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-primary">Ler mais</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="h5">&copy;Cuphead</h3>
+                        </div>
+                        <img src="/Exercicio/Lib/a2164104584_65.jpeg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Jazz, Swing e Aventura: A Magia da Trilha Sonora de Cuphead Revelada!</h4>
+                            <p class="card-text">A trilha sonora de Cuphead é uma jornada musical que mergulha os jogadores em um mundo vibrante de jazz e swing dos anos 30. Cada faixa é uma obra-prima única, cuidadosamente composta para complementar a estética visual contra...</p>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-primary">Ler mais</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="./Lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
